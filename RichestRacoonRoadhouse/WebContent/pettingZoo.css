@@ -1,0 +1,95 @@
+#stage {
+    background-image: url("gallery8.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption {
+    font-size: 1.2rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+#stage-caption h1 {
+    color: white;
+    letter-spacing: 0.016129em;    
+}
+price-block {
+    margin: 20px 0px 30px;
+}
+
+.price-block h2 {
+    font-size: 80px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+}
+
+
+.price-block h2 small {
+    position: absolute;
+    top: 20px;
+    font-size: 16px;
+    left: -9px;
+}
+
+.price-block h6 {
+    font-size: 14px;
+    border-top: 1px solid#eee;
+    border-bottom: 1px solid#eee;
+    padding: 7px;
+    text-transform: capitalize;
+    width: 50%;
+    margin: 10px auto;
+
+}
+.pricing-box{
+    border: 1px solid#eee;
+    padding: 60px;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition:all 300ms ease-in-out ;
+    transition:all 300ms ease-in-out ;
+    background-color: #59D559;
+}
+
+.pricing-box .price-block h2 span{
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+.pricing-box:hover .price-block h2 ,.pricing-box:hover h3{
+    color: #fff;
+}
+
+.pricing-box:hover .price-features li{
+    color: #eee;
+}
+
+.pricing-box:hover{
+    background: rgb(29, 28, 28);
+    border-color: rgb(29, 28, 28);
+}
+
+.pricing-box:hover .btn{
+    background: #fff!important;
+    color: #000!important;
+}
+
+.contactForParty{
+     border: 1px solid#eee;
+    padding: 60px;
+    -webkit-transition: all 300ms ease-in-out;
+    -o-transition:all 300ms ease-in-out ;
+    transition:all 300ms ease-in-out ;
+    background-color: #59D559;
+}
+.section bg-grey{
+    background-color: #59D559;
+}
